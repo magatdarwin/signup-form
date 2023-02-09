@@ -1,11 +1,44 @@
 * {
   box-sizing: border-box;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
-
+:root {
+}
 body {
   display: flex;
   min-height: 100vh;
   margin: 0;
   border: 0;
+}
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('./assets/Norse-Bold.otf');
+}
+
+aside {
+  background-image: url('./assets/background-image.avif');
+  width: 800px;
+}
+
+aside div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 0;
+  position: relative;
+  top: 200px;
+}
+
+aside h1 {
+  font-family: 'Norse-Bold';
+  color: white;
+  font-size: 72px;
+  margin: 0;
+}
+
+aside img {
+  width: 100px;
+  height: 130px;
 }
