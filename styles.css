@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  border: 0;
+}
