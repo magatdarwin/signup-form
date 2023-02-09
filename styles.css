@@ -1,14 +1,18 @@
 * {
   box-sizing: border-box;
-  /* border: 1px solid gray; */
 }
+
 :root {
+  --default-font: Arial, san-serif;
 }
+
 body {
   display: flex;
   min-height: 100vh;
   margin: 0;
   border: 0;
+  font-family: var(--default-font);
+  font-weight: 500;
 }
 
 @font-face {
@@ -41,4 +45,17 @@ aside h1 {
 aside img {
   width: 100px;
   height: 130px;
+}
+
+main {
+  padding-top: 115px;
+}
+
+#intro p {
+  font-weight: 900;
+}
+
+.padded {
+  padding-left: 50px;
+  padding-right: 660px;
 }
