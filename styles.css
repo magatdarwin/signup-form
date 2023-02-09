@@ -4,6 +4,9 @@
 
 :root {
   --default-font: Arial, san-serif;
+  --button-color: #596D48;
+  --input-border: #E5E7EB;
+
 }
 
 body {
@@ -58,4 +61,21 @@ main {
 .padded {
   padding-left: 50px;
   padding-right: 660px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+#form-container {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 3px 5px #a2a2a2;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }

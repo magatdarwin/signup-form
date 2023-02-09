@@ -20,21 +20,33 @@
     </div>
 
     <form action="">
-      <fieldset class="padded">
-        <legend>Let's do this!</legend>
-        <label for="first-name">First Name</label>
-        <input type="text" name="first-name" id="first-name">
-        <label for="last-name">Last Name</label>
-        <input type="text" name="last-name" id="last-name">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <label for="phone-number">Phone Number</label>
-        <input type="number" name="phone-number" id="phone-number">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <label for="confirm-password">Confirm Password</label>
-        <input type="password" name="confirm-password" id="confirm-password">
-      </fieldset>
+      <div class="padded" id="form-container">
+        <h2>Let's do this!</h2>
+        <div class="control-container">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name">
+        </div>
+        <div class="control-container">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name">
+        </div>
+        <div class="control-container">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="control-container">
+          <label for="phone-number">Phone Number</label>
+          <input type="number" name="phone-number" id="phone-number">
+        </div>
+        <div class="control-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="control-container">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" name="confirm-password" id="confirm-password">
+        </div>
+      </div>
       <div class="padded">
         <button type="submit">Create Account</button>
         <p>Already have an account? <a href="">Log in</a></p>  
