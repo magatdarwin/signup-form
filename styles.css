@@ -26,6 +26,8 @@ body {
 aside {
   background-image: url('./assets/background-image.avif');
   width: 1300px;
+  display: flex;
+  flex-direction: column;
 }
 
 aside div {
@@ -48,6 +50,17 @@ aside h1 {
 aside img {
   width: 100px;
   height: 130px;
+}
+
+
+aside p {
+  color: white;
+  margin-top: auto;
+  align-self: center;
+}
+
+aside a {
+  color: white;
 }
 
 main {
