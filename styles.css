@@ -99,3 +99,25 @@ form label {
   font-size: 13px;
   letter-spacing: 0.1rem;
 }
+
+button[type="submit"] {
+  appearance: button;
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 48px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 1px 3px 5px #a2a2a2;
+}
+
+button[type="submit"] + p {
+  margin-top: 30px;
+}
+
+form a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: bold;
+}
