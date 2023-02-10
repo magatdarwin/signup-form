@@ -71,11 +71,31 @@ form {
   border: 1px solid #f0f0f0;
   box-shadow: 0 3px 5px #a2a2a2;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 20px;
+}
+
+#form-container h2 {
+  width: 100%;
 }
 
 .control-container {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 230px;
+}
+
+#form-container input {
+  border: 1px solid var(--input-border);
+  height: 30px;
+  border-radius: 3px;
+}
+
+form label {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
 }
