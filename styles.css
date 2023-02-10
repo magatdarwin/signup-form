@@ -60,7 +60,7 @@ main {
 
 .padded {
   padding-left: 50px;
-  padding-right: 660px;
+  padding-right: 550px;
 }
 
 form {
@@ -85,7 +85,7 @@ form {
 .control-container {
   display: flex;
   flex-direction: column;
-  width: 230px;
+  width: 300px;
 }
 
 #form-container input {
