@@ -81,7 +81,7 @@ form {
   margin-top: 50px;
 }
 
-#form-container {
+.form-container {
   border: 1px solid #f0f0f0;
   box-shadow: 0 3px 5px #a2a2a2;
   margin-bottom: 30px;
@@ -92,7 +92,7 @@ form {
   row-gap: 20px;
 }
 
-#form-container h2 {
+.form-container h2 {
   width: 100%;
 }
 
@@ -102,20 +102,29 @@ form {
   width: 300px;
 }
 
-#form-container input {
+.form-container input {
   border: 1px solid var(--input-border);
   height: 30px;
   border-radius: 3px;
 }
 
-#form-container input:focus {
+.form-container input:focus {
   outline: none;
   border-color: var(--active-color);
   box-shadow: 1px 3px 5px #a2a2a2;
 }
 
-#form-container input:invalid {
+.form-container input:invalid {
   border: 2px solid var(--invalid-color);
+}
+
+.form-container .error {
+  border: 2px solid var(--invalid-color);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
 }
 
 form label {
