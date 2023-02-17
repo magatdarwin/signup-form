@@ -20,3 +20,11 @@ function validatePassword() {
 let passwordValid = false;
 const confirmPasswordInput = document.getElementById('confirm-password');
 confirmPasswordInput.addEventListener('input', validatePassword);
+
+const submitButton = document.querySelector('button[type="submit"]');
+submitButton.addEventListener('click', e => {
+    if (passwordValid === false) {
+        e.preventDefault();
+        alert("Passwords do not match");
+    }
+});
