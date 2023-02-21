@@ -7,24 +7,14 @@ function validatePassword() {
         password.classList.add('error');
         confirmPassword.classList.add('error');
         errorMessage.hidden = false;
-        passwordValid = false;
+        password.setCustomValidity('Passwords do not match');
     }
     else if (password.value === confirmPassword.value) {
         password.classList.remove('error');
         confirmPassword.classList.remove('error');
         errorMessage.hidden = true;
-        passwordValid = true;
     }
 }
 
-let passwordValid = false;
 const confirmPasswordInput = document.getElementById('confirm-password');
 confirmPasswordInput.addEventListener('input', validatePassword);
-
-const submitButton = document.querySelector('button[type="submit"]');
-submitButton.addEventListener('click', e => {
-    if (passwordValid === false) {
-        e.preventDefault();
-        alert("Passwords do not match");
-    }
-});
