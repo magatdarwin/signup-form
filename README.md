@@ -1,5 +1,5 @@
 # signup-form
-Basic Sign-up Form Project
+Basic Sign-up Form Page (View on [GitHub Pages](https://magatdarwin.github.io/signup-form/))
 
 Skills Demonstrated:
 - Basic Form Styling
